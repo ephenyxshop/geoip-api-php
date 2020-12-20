@@ -1,15 +1,14 @@
 {
     "name": "geoip/geoip",
-    "description": "MaxMind GeoIP PHP API",
-    "keywords": ["geoip", "geolocation", "maxmind"],
-    "homepage": "http://dev.maxmind.com/geoip/legacy/downloadable",
+    "description": "GeoIp",
+    "homepage": "https://ephenyx.com",
     "type": "library",
     "license": "LGPL-2.1-or-later",
     "authors": [
         {
-            "name": "MaxMind, Inc.",
-            "email": "support@maxmind.com",
-            "homepage": "http://www.maxmind.com/"
+            "name": "Ephenyx Digital",
+            "email": "jeff@ephenyx.com",
+            "homepage": "https://ephenyx.com/"
         }
     ],
     "autoload": {
@@ -22,8 +21,7 @@
     "conflict": {
         "ext-geoip": "*"
     },
-    "require-dev": {
-        "satooshi/php-coveralls": "1.0.*",
-        "phpunit/phpunit": "4.* || 5.*"
-    }
+    "require": {
+        "php": ">=5.4"
+    },
 }
